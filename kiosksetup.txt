@@ -29,8 +29,8 @@ Install xinit with the command:
 sudo apt-get install --no-install-recommends xinit
 
 Install x11-xserver-utils with the command sudo apt-get install --no-install-recommends x11-xserver-utils
-Install Chromium and kiosk dependencies Part 3
 
+Install Chromium and kiosk dependencies Part 3
 From the same terminal  connected to the  Pi via SSH:
 Install chromium-browser with the command:
 sudo apt-get install chromium-browser
@@ -40,6 +40,7 @@ sudo apt-get install matchbox-window-manager xautomation unclutter
 
 Configure boot and display options   Step 2 of 2
 Auto-login on boot and start kiosk mode from a script.
+
 Why auto-login?
 The pi user will launch X and  Chromium, and therefore must be logged in.
 Why call a script from .bashrc?
